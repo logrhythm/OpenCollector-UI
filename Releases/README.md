@@ -23,7 +23,7 @@
 - The credentials you enter are only saved when closing the App if there was a succesful connection.
   - People think it doesn't work when they do not connect, and close the App.
 - The credentials are saved in plain text in the config.json file.
-  - if you don't like that, un-tick the " [ ] **Remember me**" and/or " [x] **Remember my password**" boxes
+  - if you don't like that, un-tick the "**Remember me**" and/or "**Remember my password**" boxes
   - I have plan to save them in a safe way, but didn't have time for v1.0
 - I do not save any of the Options to the Config file in the **Install** screen
   - Again, no time for v1.0
