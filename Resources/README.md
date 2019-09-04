@@ -15,12 +15,12 @@ This contains the LogRhythm Open-Collector lightweight installer and the key to 
 
 #### lrjq.zip
 This is downloaded on the LogRhythm Open-Collector host, typically by ```OCHelper.sh```.
-LRJQ is a JQ test tool that can be used from the CLI to test JQ Filters and JQ Transforms. 
+LRJQ is a JQ test tool that can be used from the CLI to test **JQ Filters** and **JQ Transforms**. 
 ```OCHelper.sh``` calls it to test the different files of a Pipeline Project. Usually because the UI asked for it.
 
 #### ocpipeline.zip
 This is downloaded on the LogRhythm Open-Collector host, typically by ```OCHelper.sh```.
-This tool is designed to create the Pipeline Project templates/blanks.
+This tool is designed to create the **Pipeline Project** templates/blanks.
 
 #### Other files
 The other files are there because they make it easier for me to test and sign things, but they are not Resources that get downloaded.
