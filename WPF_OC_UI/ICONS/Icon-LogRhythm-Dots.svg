@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg4664"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Icon-LogRhythm-Dots.svg">
+  <defs
+     id="defs4658" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="60.60539"
+     inkscape:cy="1027.8253"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4661">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#2d7ac7;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.28969014"
+       d="m 17.449064,0 c -1.408415,0 -2.549972,1.14403 -2.548682,2.552299 0,1.408269 1.140267,2.5491983 2.548682,2.5491983 1.408414,0 2.550749,-1.1411854 2.550749,-2.5481648 C 19.999813,1.1437739 18.857478,0.00128962 17.449064,0 Z m -7.448641,0.00155029 c -1.4084146,0 -2.5497152,1.14376941 -2.5497152,2.55074871 0,1.408269 1.1413006,2.5491983 2.5497152,2.5491983 1.407125,0 2.551265,-1.1398959 2.551265,-2.5481648 0,-1.4095586 -1.141561,-2.55178221 -2.551265,-2.55178221 z M 2.5512654,7.4496744 c -1.4071247,0 -2.54971511,1.1440255 -2.54971511,2.5497152 0,1.4108484 1.14130051,2.5533324 2.54971511,2.5533324 1.4097042,0 2.5512654,-1.142741 2.5512654,-2.552299 0,-1.4069797 -1.1428508,-2.5507486 -2.5512654,-2.5507486 z m 7.4481242,0 c -1.4071248,0 -2.5497152,1.1414461 -2.5497152,2.5497152 0.0013,1.4108484 1.1425904,2.5533324 2.5497152,2.5533324 1.4084144,0 2.5522984,-1.142484 2.5522984,-2.5533324 -0.0026,-1.4056897 -1.143884,-2.5497152 -2.5522984,-2.5497152 z m 7.4507074,0 c -1.408414,0 -2.549715,1.1440255 -2.549715,2.5497152 0,1.4108484 1.141557,2.5530984 2.548682,2.5491984 1.409704,0.0039 2.552049,-1.13835 2.550749,-2.5491984 0,-1.4056897 -1.141301,-2.5497152 -2.549716,-2.5497152 z M 2.552299,14.899349 C 1.1425947,14.899349 0,16.039501 0,17.44648 c 0,1.409559 1.1425947,2.553333 2.552299,2.553333 1.4071247,0 2.5497151,-1.141195 2.5497151,-2.553333 0,-1.406979 -1.1425904,-2.547131 -2.5497151,-2.547131 z m 7.448124,0 c -1.4084146,0 -2.5497152,1.140152 -2.5497152,2.547131 0,1.409559 1.1413006,2.550749 2.5497152,2.550749 1.407125,0 2.551265,-1.138611 2.551265,-2.550749 -0.0013,-1.406979 -1.14414,-2.547131 -2.551265,-2.547131 z"
+       id="path4866" />
+  </g>
+</svg>

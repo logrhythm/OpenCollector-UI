@@ -1,0 +1,6 @@
+
+WPF_OC_UI/logs/*.log
+WPF_OC_UI/config/config.json
+WPF_OC_UI/*.OpenCollector Log Test Output Export.*
+WPF_OC_UI/*.OpenCollector Configuration Export.yml
+WPF_OC_UI/config/config - Copy.json

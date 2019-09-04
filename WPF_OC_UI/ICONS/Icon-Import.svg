@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5295"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Icon-Import.svg">
+  <defs
+     id="defs5289" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="114.84227"
+     inkscape:cy="1085.659"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5292">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <title
+       id="title5840">Circle with Right Arrow RTL</title>
+    <path
+       id="path5842"
+       d="m 16.05264,10 a 0.78947366,0.78947366 0 0 1 -0.78948,0.78947 H 6.64211 l 2.33684,2.33684 a 0.78947366,0.78947366 0 0 1 -1.11579,1.1158 L 4.17895,10.5579 a 0.78947366,0.78947366 0 0 1 0,-1.11579 L 7.86316,5.7579 A 0.78947366,0.78947366 0 0 1 8.97895,6.87368 L 6.64211,9.21052 h 8.62105 A 0.78947366,0.78947366 0 0 1 16.05264,10 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke-width:0.26315787" />
+    <path
+       id="path5844"
+       d="M 0,10 A 10,10 0 1 0 10,0 10,10 0 0 0 0,10 Z m 1.57895,0 A 8.4210524,8.4210524 0 1 1 10,18.42105 8.4210524,8.4210524 0 0 1 1.57895,10 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#2d7ac7;fill-opacity:1;stroke-width:0.26315787" />
+  </g>
+</svg>
