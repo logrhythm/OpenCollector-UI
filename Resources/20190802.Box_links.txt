@@ -45,19 +45,29 @@ For each ZIP file I created 2 short URLs using Tiny.cc, as it allows me to
 change the target URL without touching the script.
 Moreover, it offers stats.
 So far (2019-08-06), each pair of short URLs point to the same URL on Box.com.
+Update (2019-09-04), Repo02 of each pair now points to the GitHub copy. So Repo01->Box.com, Repo02->GitHub.com
+
+OCHelper.sh
+http://tiny.cc/OCHelper-sh-repo01
+https://logrhythm.box.com/shared/static/qf9d67e41il5o92y9y8wax705wrxftqd.sh
+http://tiny.cc/OCHelper-sh-repo02
+https://raw.githubusercontent.com/TonyMasse/OpenCollector-UI/master/Resources/OCHelper.sh
 
 lrctl
 http://tiny.cc/lrctl-zip-repo01
-http://tiny.cc/lrctl-zip-repo02
 https://logrhythm.box.com/shared/static/jchs9u5djkidnky6n9zsf4rseiu1jiw5.zip
+http://tiny.cc/lrctl-zip-repo02
+https://raw.githubusercontent.com/TonyMasse/OpenCollector-UI/master/Resources/lrctl.zip
 
 lrjq
 http://tiny.cc/lrjq-zip-repo01
-http://tiny.cc/lrjq-zip-repo02
 https://logrhythm.box.com/shared/static/e9swfb1r01s25ueg3oacp0508og8oog4.zip
+http://tiny.cc/lrjq-zip-repo02
+https://raw.githubusercontent.com/TonyMasse/OpenCollector-UI/master/Resources/lrjq.zip
 
 ocpipeline
 http://tiny.cc/ocpipeline-zip-repo01
-http://tiny.cc/ocpipeline-zip-repo02
 https://logrhythm.box.com/shared/static/1p1hoykczfs5v94v6gqkwfcio3x5e0t9.zip
+http://tiny.cc/ocpipeline-zip-repo02
+https://raw.githubusercontent.com/TonyMasse/OpenCollector-UI/master/Resources/ocpipeline.zip
 
