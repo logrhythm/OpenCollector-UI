@@ -18,10 +18,10 @@ The whole stack is planed to be like this:
 ![Open-Collector UI Stack](Images/OpenCollectorUI-Stack.png "Open-Collector UI Stack")
 
 Status:
-- [x] :eight_spoked_asterisk: CLI tool (```OCHelper.sh```)
-- [x] :white_check_mark: PowerShell GUI (```OC_UI-v?.?.ps1```)
-- [ ] :x: Text/Menu based UI
-- [ ] Web UI
+- [x] ![Done](Images/Done.png "Done") CLI tool (```OCHelper.sh```)
+- [x] ![Done](Images/Done.png "Done") PowerShell GUI (```OC_UI-v?.?.ps1```)
+- [ ] ![Done](Images/Planned.png "Planned") Text/Menu based UI
+- [ ] ![Done](Images/Planned.png "Planned")Web UI
 
 Contact me if you would like to be involded.
 
