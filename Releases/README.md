@@ -16,6 +16,13 @@
 ````Set-ExecutionPolicy -ExecutionPolicy Unrestricted````
   - close the PowerShell prompt that is running as Administrator
 
+### Notes / Know issues:
+#### Open-Collector Helper - v1.0
+- In the **Login** screen, you must provide ```root``` or similarly priviledged user credentials, to be able to install the stack (well, it's at least required to install Docker)
+  - I have ideas on how to remove this constrain, but it didn't make it in v1.0
+- The credentials you enter are only saved when closing the App if there was a succesful connection.
+
+
 ```powershell
 # ###########################################
 #
