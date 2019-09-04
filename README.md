@@ -39,12 +39,8 @@ The whole stack is planed to be like this:
 ### Download:
 Latest version:
 - PowerShell based GUI (```OC_UI-v1.0.ps1```)
-  - Version 1.0 :floppy_disk: [Download](Releases/Release-OC_UI-v1.0.20190904.zip)
-  - Version 1.0 :inbox_tray: [Download](Releases/Release-OC_UI-v1.0.20190904.zip)
-  - Version 1.0 :package: [Download](Releases/Release-OC_UI-v1.0.20190904.zip)
-  - Version 1.0 :arrow_right: [Download](Releases/Release-OC_UI-v1.0.20190904.zip)
-  - Version 1.0 :arrow_double_down: [Download](Releases/Release-OC_UI-v1.0.20190904.zip)
-  - Version 1.0 :link: [Download](Releases/Release-OC_UI-v1.0.20190904.zip)
+  - Version 1.0 : [Download](Releases/Release-OC_UI-v1.0.20190904.zip) :floppy_disk: 
+  - Version 1.0 : [Download](Releases/Release-OC_UI-v1.0.20190904.zip) [:floppy_disk:](Releases/Release-OC_UI-v1.0.20190904.zip)
 
 Contact me if you would like to be involded.
 
