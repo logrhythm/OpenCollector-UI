@@ -10,7 +10,7 @@ This GUI is designed to make both **installation**, **monitoring** and **managin
 
 The GUI project englobes several sub projects:
 - A Command Line tool (```OCHelper.sh```) to do actions on the Open-Collector machine from the CLI. Inputing and Outputing in strict formats (Raw or JSON), so be easily used as a point of entry for a user as well as other tools and UIs. See this as the API back-end.
-- A PowerShell based GUI (```OC_UI-v?.?.ps1```) for Windows -*and Mac if install PowerShell there*- that relies on the CLI tool above
+- A PowerShell based GUI (```OC_UI-v?.?.ps1```) for Windows -*and Mac if you install PowerShell there*- that relies on the CLI tool above
 - A Menu based UI, all in text to be used on the CLI
 - A Web based interface for everybody, that will rely on the CLI tool too.
 
