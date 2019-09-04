@@ -1,0 +1,100 @@
+
+heartbeat:
+  interval: 5m
+  parsedinterval: 0s
+  disabled: false
+listeners:
+  lumberjack:
+    host: 0.0.0.0
+    port: 5044
+    disabled: false
+    retry_interval: ""
+    parsedretryinterval: 0s
+    tls: null
+  json: []
+  grpc: null
+  pbvalue_channel: null
+  lrimport: []
+outputs:
+  logger: null
+  grpc: null
+  syslog:
+    name: syslogOutput
+    disabled: false
+    host: localhost
+    port: 514
+    transport: tcp
+    facility: 3
+    severity: 5
+    tag: ""
+    tls:
+      cert: /opencollector/config/cert.pem
+      skipverify: false
+    header:
+      timezone: Etc/UTC
+    buffer_size: 2000
+  pbvalue_channel: null
+  noop:
+    name: noopOutput
+    disabled: false
+pipelinedefs: {}
+pipelines:
+- disabled: false
+  name: logrhythm/s3/s3_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/eventhub/eventhub_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/gsuite/gsuite_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/heartbeat/heartbeat_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/generic/generic_pipe
+  outputs:
+  - syslogOutput
+counters:
+  statsd_publisher:
+    host: metrics
+    port: 8125
+    flush_interval_in_secs: 1
+    disabled: false
+  io_writer_publisher:
+    flush_interval_in_secs: 5
+    disabled: true
+quarantine:
+  name: quarantine
+  disabled: false
+  prefix: ""
+  flags: null
+  logfile:
+    filename: /dev/null
+    maxsize: 0
+    maxage: 0
+    maxbackups: 0
+    localtime: false
+    compress: false
+phonehome: null
+advanced:
+  demux:
+    capacity: 1000
+    concurrency: 5
+  lumberjack:
+    capacity: 1
+    concurrency: 5
+  pipelines:
+    capacity: 100
+    concurrency: 1
+  outputs:
+    capacity: 100
+    concurrency: 1
+  phonehome:
+    capacity: 1000
+    concurrency: 1
+
