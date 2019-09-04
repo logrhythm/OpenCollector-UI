@@ -14,10 +14,11 @@ The GUI project englobes several sub projects:
 - A Menu based UI, all in text to be used on the CLI
 - A Web based interface for everybody, that will rely on the CLI tool too.
 
+###Stack:
 The whole stack is planed to be like this:
 ![Open-Collector UI Stack](Images/OpenCollectorUI-Stack.png "Open-Collector UI Stack")
 
-Status:
+###Status: *(as of 2019-09-04)*
 - ![Done](Images/Done.png "Done") CLI tool (```OCHelper.sh```)
 - ![Done](Images/Done.png "Done") PowerShell GUI (```OC_UI-v?.?.ps1```)
 - ![Planned](Images/Planned.png "Planned") Text/Menu based UI
