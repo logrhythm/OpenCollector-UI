@@ -1,0 +1,25 @@
+sudo yum install --quiet --assumeyes wget
+sudo yum install --quiet --assumeyes unzip
+wget --quiet --output-document=lrctl.zip "https://logrhythm.box.com/shared/static/jchs9u5djkidnky6n9zsf4rseiu1jiw5.zip"
+unzip -u -qq lrctl.zip
+md5sum --status --check lrctl.md5
+md5sum --status --check lrctl.json.md5
+md5sum --status --check oc.conf.VirginUTC.txt
+chmod +x lrctl
+rm --force lrctl.zip
+./lrctl init
+./lrctl help
+./lrctl metrics start
+cat oc.conf.VirginUTC.txt | ./lrctl open-collector config import
+./lrctl open-collector start
+./lrctl open-collector status
+./lrctl status
+
+# =======================
+
+wget --quiet --output-document=lrjq.zip "https://logrhythm.box.com/shared/static/e9swfb1r01s25ueg3oacp0508og8oog4.zip"
+md5sum --status --check lrjq.md5
+chmod +x lrjq
+wget --quiet --output-document=ocpipeline.zip "https://logrhythm.box.com/shared/static/1p1hoykczfs5v94v6gqkwfcio3x5e0t9.zip"
+md5sum --status --check ocpipeline.md5
+chmod +x ocpipeline
