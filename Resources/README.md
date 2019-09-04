@@ -26,7 +26,7 @@ This tool is designed to create the **Pipeline Project** templates/blanks.
 The other files are there because they make it easier for me to test and sign things, but they are not Resources that get downloaded.
 - ```**Test.sh**```
   - A simple list of the functions of the ```OCHelper.sh```, with examples of parameters to provide.
-  - :warning: Do not run this tool, it's only design for me to 1. Remember the commands, 2. Test them by copying/pasting one or more lines from it.
+  - :warning: Do not run this tool, it's only designed for me to 1. Remember the commands, 2. Test them by copying/pasting one or more lines from it.
 - ```**Sign_OCHelper_sh.sh**```
   - The small Bash script I made to sign (MD5 checksum, nothing fancy) the ```OCHelper.sh``` script.
   - It allows this command to work ```./OCHelper.sh --SelfIntegrityCheck```
