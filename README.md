@@ -28,6 +28,13 @@ The whole stack is planed to be like this:
 ### Screenshots: 
 *(as of 2019-09-04)*
 #### - PowerShell based GUI (```OC_UI-v1.0.ps1```): 
+![Welcome Screen](Images/Screenshots/OC_UI_v1.0/1.Welcome.png "Welcome Screen") 
+![Login Screen](Images/Screenshots/OC_UI_v1.0/2.Login.png "Login Screen") 
+![Login Screen](Images/Screenshots/OC_UI_v1.0/3.LoginDone.png "Login Screen") 
+![Status Screen](Images/Screenshots/OC_UI_v1.0/4.Status.png "Status Screen") 
+![Install Screen](Images/Screenshots/OC_UI_v1.0/5.Install.png "Install Screen") 
+![Install Screen with Advanced and Options rolled out](Images/Screenshots/OC_UI_v1.0/6.InstallAdvancedOptions.png "Install Screen with Advanced and Options rolled out") 
+![Pipelines Screen](Images/Screenshots/OC_UI_v1.0/7.Pipelines.png "Pipelines Screen") 
 
 Contact me if you would like to be involded.
 
