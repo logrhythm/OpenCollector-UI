@@ -14,6 +14,7 @@ The GUI project englobes several sub projects:
 - A Web based interface for everybody, that will rely on the CLI tool too.
 
 The whole stack is planed to be like this:
+![Open-Collector UI Stack](Images/OpenCollectorUI-Stack.png "Open-Collector UI Stack")
 
 
 Contact me if you would like to be involded.
