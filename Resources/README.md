@@ -34,6 +34,6 @@ The other files are there because they make it easier for me to test and sign th
   - A config export from a LogRhythm Open-Collector that has been freshly installed and minimally configured.
   - A copy is included in ```lrctl.zip``` as it's used by the ```OCHelper.sh``` script during one of the Post-Install steps of the Open-Collector intallation procedure.
 - **20190802.Box_links.txt**
-  - A backed-up list of the direct download links of all the above files. Both on Box.com and Github.com. As well as the mapping between the short URL (tiny.cc) and their equivalent long URL.
-  - The scripts always use the short URLs, which in turn points to the long URLs on either Box.com or Github.com. Allowing me to change the mapping if necessary.
+  - A backed-up list of the direct download links of all the above files. Both on **Box.com** and **Github.com**. As well as the mapping between the short URL (**tiny.cc**) and their equivalent long URL.
+  - The scripts always use the short URLs, which in turn points to the long URLs on either **Box.com** or **Github.com**. Allowing me to change the mapping if necessary.
   
