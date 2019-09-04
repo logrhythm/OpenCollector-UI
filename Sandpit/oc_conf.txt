@@ -1,0 +1,101 @@
+
+advanced:
+  demux:
+    capacity: 1000
+    concurrency: 5
+  lumberjack:
+    capacity: 1
+    concurrency: 5
+  outputs:
+    capacity: 100
+    concurrency: 1
+  phonehome:
+    capacity: 1000
+    concurrency: 1
+  pipelines:
+    capacity: 100
+    concurrency: 1
+counters:
+  io_writer_publisher:
+    disabled: true
+    flush_interval_in_secs: 5
+  statsd_publisher:
+    disabled: false
+    flush_interval_in_secs: 1
+    host: metrics
+    port: 8125
+heartbeat:
+  disabled: false
+  interval: 5m
+  parsedinterval: 0s
+listeners:
+  grpc: null
+  json: []
+  lrimport: []
+  lumberjack:
+    disabled: false
+    host: 0.0.0.0
+    parsedretryinterval: 0s
+    port: 5044
+    retry_interval: ""
+    tls: null
+  pbvalue_channel: null
+outputs:
+  grpc: null
+  logger: null
+  noop:
+    disabled: false
+    name: noopOutput
+  pbvalue_channel: null
+  syslog:
+    buffer_size: 2000
+    disabled: false
+    facility: 3
+    header:
+      timezone: Europe/London
+    host: 172.16.0.198
+    name: syslogOutput
+    port: 514
+    severity: 5
+    tag: ""
+    tls:
+      cert: /opencollector/config/cert.pem
+      skipverify: false
+    transport: tcp
+phonehome: null
+pipelinedefs: {}
+pipelines:
+- name: pubsubbeat/pubsubbeat_pipe
+  outputs:
+  - syslogOutput
+- name: logrhythm/eventhub/eventhub_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/azure/azure_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/heartbeat/heartbeat_pipe
+  outputs:
+  - syslogOutput
+- name: logrhythm/gsuite/gsuite_pipe
+  outputs:
+  - syslogOutput
+- disabled: false
+  name: logrhythm/generic/generic_pipe
+  outputs:
+  - syslogOutput
+quarantine:
+  disabled: false
+  flags: null
+  logfile:
+    compress: false
+    filename: /dev/null
+    localtime: false
+    maxage: 0
+    maxbackups: 0
+    maxsize: 0
+  name: quarantine
+  prefix: ""
+

@@ -1,0 +1,143 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\WINDOWS\system32> find-module PoSH-SSH
+
+Version    Name                                Repository           Description
+-------    ----                                ----------           -----------
+2.2        Posh-SSH                            PSGallery            Provide SSH and SCP functionality for executing commands against remote hosts.
+
+
+PS C:\WINDOWS\system32> get-module PoSH-SSH
+PS C:\WINDOWS\system32> install-module PoSH-SSH
+
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the
+modules from 'PSGallery'?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> Get-Command -Module posh-ssh
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Get-PoshSSHModVersion                              2.2        posh-ssh
+Function        Get-SFTPChildItem                                  2.2        posh-ssh
+Function        Get-SFTPContent                                    2.2        posh-ssh
+Function        Get-SFTPLocation                                   2.2        posh-ssh
+Function        Get-SFTPPathAttribute                              2.2        posh-ssh
+Function        Get-SFTPSession                                    2.2        posh-ssh
+Function        Get-SSHPortForward                                 2.2        posh-ssh
+Function        Get-SSHSession                                     2.2        posh-ssh
+Function        Get-SSHTrustedHost                                 2.2        posh-ssh
+Function        Invoke-SSHCommand                                  2.2        posh-ssh
+Function        Invoke-SSHCommandStream                            2.2        posh-ssh
+Function        Invoke-SSHStreamExpectAction                       2.2        posh-ssh
+Function        Invoke-SSHStreamExpectSecureAction                 2.2        posh-ssh
+Function        Invoke-SSHStreamShellCommand                       2.2        posh-ssh
+Function        Move-SFTPItem                                      2.2        posh-ssh
+Function        New-SFTPFileStream                                 2.2        posh-ssh
+Function        New-SFTPItem                                       2.2        posh-ssh
+Function        New-SFTPSymlink                                    2.2        posh-ssh
+Function        New-SSHDynamicPortForward                          2.2        posh-ssh
+Function        New-SSHLocalPortForward                            2.2        posh-ssh
+Function        New-SSHRemotePortForward                           2.2        posh-ssh
+Function        New-SSHShellStream                                 2.2        posh-ssh
+Function        New-SSHTrustedHost                                 2.2        posh-ssh
+Function        Remove-SFTPItem                                    2.2        posh-ssh
+Function        Remove-SFTPSession                                 2.2        posh-ssh
+Function        Remove-SSHSession                                  2.2        posh-ssh
+Function        Remove-SSHTrustedHost                              2.2        posh-ssh
+Function        Rename-SFTPFile                                    2.2        posh-ssh
+Function        Set-SFTPContent                                    2.2        posh-ssh
+Function        Set-SFTPLocation                                   2.2        posh-ssh
+Function        Set-SFTPPathAttribute                              2.2        posh-ssh
+Function        Start-SSHPortForward                               2.2        posh-ssh
+Function        Stop-SSHPortForward                                2.2        posh-ssh
+Function        Test-SFTPPath                                      2.2        posh-ssh
+Cmdlet          Get-SCPFile                                        2.2        posh-ssh
+Cmdlet          Get-SCPFolder                                      2.2        posh-ssh
+Cmdlet          Get-SCPItem                                        2.2        posh-ssh
+Cmdlet          Get-SFTPFile                                       2.2        posh-ssh
+Cmdlet          Get-SFTPItem                                       2.2        posh-ssh
+Cmdlet          New-SFTPSession                                    2.2        posh-ssh
+Cmdlet          New-SSHSession                                     2.2        posh-ssh
+Cmdlet          Set-SCPFile                                        2.2        posh-ssh
+Cmdlet          Set-SCPFolder                                      2.2        posh-ssh
+Cmdlet          Set-SCPItem                                        2.2        posh-ssh
+Cmdlet          Set-SFTPFile                                       2.2        posh-ssh
+Cmdlet          Set-SFTPFolder                                     2.2        posh-ssh
+Cmdlet          Set-SFTPItem                                       2.2        posh-ssh
+
+
+PS C:\WINDOWS\system32> New-SSHSession -ComputerName
+New-SSHSession : Missing an argument for parameter 'ComputerName'. Specify a parameter of type 'System.String[]' and try again.
+At line:1 char:16
++ New-SSHSession -ComputerName
++                ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [New-SSHSession], ParameterBindingException
+    + FullyQualifiedErrorId : MissingArgument,SSH.NewSshSession
+
+PS C:\WINDOWS\system32> New-SSHSession -ComputerName 172.16.0.197
+
+cmdlet New-SSHSession at command pipeline position 1
+Supply values for the following parameters:
+(Type !? for Help.)
+Credential
+
+Server SSH Fingerprint
+Do you want to trust the fingerprint 5:de:c3:80:c6:63:30:7:0:63:60:81:2b:f:0:8a
+[] Y  [] N  [?] Help (default is "N"):
+PS C:\WINDOWS\system32> New-SSHSession -ComputerName 172.16.0.197
+
+cmdlet New-SSHSession at command pipeline position 1
+Supply values for the following parameters:
+(Type !? for Help.)
+Credential
+
+Server SSH Fingerprint
+Do you want to trust the fingerprint 5:de:c3:80:c6:63:30:7:0:63:60:81:2b:f:0:8a
+[] Y  [] N  [?] Help (default is "N"): y
+
+SessionId  Host                                                                                                  Connected
+---------  ----                                                                                                  ---------
+    0      172.16.0.197                                                                                             True
+
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32> Invoke-SSHCommand -Index 0 -Command "uname"
+
+
+Host       : 172.16.0.197
+Output     : {Linux}
+ExitStatus : 0
+
+
+
+PS C:\WINDOWS\system32> Invoke-SSHCommand -Index 0 -Command "unames"
+
+
+Host       : 172.16.0.197
+Output     : {}
+ExitStatus : 127
+
+
+
+PS C:\WINDOWS\system32> $sess = Get-SSHSession
+PS C:\WINDOWS\system32> $sess
+
+SessionId  Host                                                                                                  Connected
+---------  ----                                                                                                  ---------
+    0      172.16.0.197                                                                                             True
+
+
+PS C:\WINDOWS\system32> $sess.Disconnect()
+PS C:\WINDOWS\system32> $sess
+
+SessionId  Host                                                                                                  Connected
+---------  ----                                                                                                  ---------
+    0      172.16.0.197                                                                                            False
+
+
+PS C:\WINDOWS\system32>
+PS C:\WINDOWS\system32>
