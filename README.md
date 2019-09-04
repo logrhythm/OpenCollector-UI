@@ -37,9 +37,8 @@ The whole stack is planed to be like this:
 ![Pipelines Screen](Images/Screenshots/OC_UI_v1.0/7.Pipelines.png "Pipelines Screen") 
 
 ### Download:
-Latest version:
+Latest versions:
 - PowerShell based GUI (```OC_UI-v1.0.ps1```)
-  - Version 1.0 : [Download](Releases/Release-OC_UI-v1.0.20190904.zip) :floppy_disk: 
   - Version 1.0 : [Download](Releases/Release-OC_UI-v1.0.20190904.zip) [:floppy_disk:](Releases/Release-OC_UI-v1.0.20190904.zip)
 
 Contact me if you would like to be involded.
