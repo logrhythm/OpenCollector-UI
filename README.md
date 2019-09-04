@@ -27,7 +27,7 @@ The whole stack is planed to be like this:
 
 ### Screenshots: 
 *(as of 2019-09-04)*
-#### PowerShell based GUI (```OC_UI-v1.0.ps1```): 
+#### - PowerShell based GUI (```OC_UI-v1.0.ps1```): 
 
 Contact me if you would like to be involded.
 
