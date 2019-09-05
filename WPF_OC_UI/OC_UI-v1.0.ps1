@@ -1062,7 +1062,7 @@ function LoadCommunityWebSite()
     LogInfo ("Opening Community WebSite on default browser via ""{0}""" -f $LRCommunityURL)
     try
     {
-        [Diagnostics.Process]::Start($LRCommunityURL,’arguments‘) | Out-Null
+        [Diagnostics.Process]::Start($LRCommunityURL,'arguments') | Out-Null
     }
     catch
     {
