@@ -1452,7 +1452,7 @@ function CheckDockerPresence
     {
         try
         {
-            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckDockerPresence") -TimeOut 2
+            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckDockerPresence") -TimeOut 10
         }
         catch
         {
@@ -1498,7 +1498,7 @@ function CheckDockerVersion
     {
         try
         {
-            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckDockerVersion") -TimeOut 5
+            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckDockerVersion") -TimeOut 10
         }
         catch
         {
@@ -1545,7 +1545,7 @@ function CheckOpenCollectorPresence
     {
         try
         {
-            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckOCPresence") -TimeOut 10
+            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckOCPresence") -TimeOut 30
         }
         catch
         {
@@ -1593,7 +1593,7 @@ function CheckOpenCollectorVersion
     {
         try
         {
-            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckOCVersion") -TimeOut 10
+            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckOCVersion") -TimeOut 30
         }
         catch
         {
@@ -1629,7 +1629,7 @@ function CheckOpenCollectorHealth
     {
         try
         {
-            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckOCHealth") -TimeOut 10
+            $SHHCommandReturn = Invoke-SSHCommand -SSHSession $script:SSHSession -Command ("./OCHelper.sh --CheckOCHealth") -TimeOut 30
         }
         catch
         {
