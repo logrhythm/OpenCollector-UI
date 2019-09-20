@@ -18,11 +18,11 @@
 
 ### Notes:
 #### Open-Collector Helper - v1.0
-- In the **Login** screen, you must provide ```root``` or similarly priviledged user credentials, to be able to install the stack (well, it's at least required to install Docker)
+- In the **Login** screen, you must provide ```root``` or similarly privileged user credentials, to be able to install the stack (well, it's at least required to install Docker)
   - I have ideas on how to remove this constrain, but it didn't make it in v1.0
-- The credentials you enter are only saved when closing the App if there was a succesful connection.
+- The credentials you enter are only saved when closing the App if there was a successful connection.
   - People think it doesn't work when they do not connect, and close the App.
-- The credentials are saved in plain text in the config.json file.
+- The credentials are saved in plain text in the ```config.json``` file.
   - if you don't like that, un-tick the "**Remember me**" and/or "**Remember my password**" boxes
   - I have plan to save them in a safe way, but didn't have time for v1.0
 - I do not save any of the Options to the Config file in the **Install** screen
