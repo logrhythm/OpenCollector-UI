@@ -18,6 +18,9 @@ ocpipeline.zip
 https://logrhythm.box.com/s/1p1hoykczfs5v94v6gqkwfcio3x5e0t9
 https://logrhythm.box.com/shared/static/1p1hoykczfs5v94v6gqkwfcio3x5e0t9.zip
 
+Release-OC_UI-v1.0.20190904.zip
+https://logrhythm.box.com/shared/static/4tz91ewflp9uuokcytu3nyqpi15qv2zb.zip
+
 GitHub:
 =======
 All files are stored on TonyMasse/OpenCollector-UI/Resources/
@@ -37,6 +40,9 @@ https://raw.githubusercontent.com/TonyMasse/OpenCollector-UI/master/Resources/OC
 ocpipeline.zip
 https://github.com/TonyMasse/OpenCollector-UI/blob/master/Resources/ocpipeline.zip
 https://raw.githubusercontent.com/TonyMasse/OpenCollector-UI/master/Resources/ocpipeline.zip
+
+Release-OC_UI-v1.0.20190904.zip
+https://github.com/TonyMasse/OpenCollector-UI/raw/master/Releases/Release-OC_UI-v1.0.20190904.zip
 
 TINY CC:
 ========
