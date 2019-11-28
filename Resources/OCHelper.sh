@@ -10,7 +10,7 @@
 #######################################
 
 # Script version
-readonly VERSION=1.0.143
+readonly VERSION=1.1.144
 
 # List of required tools, example: REQUIRED_TOOLS=(git ssh)
 readonly REQUIRED_TOOLS=()
@@ -247,7 +247,7 @@ function CheckOCHelperVersion() {
 # Output: {"Version":{"Detailed":{"Major":"%d", "Minor":"%d", "Build":"%d"}, "Full":"%s"}}
 #######################################
 function CheckOSVersion() {
-  uname -r | awk -F. -v OFS= '{print "{\"Version\":{\"Detailed\":{\"Major\":\""$1,"\", \"Minor\":\""$2,"\", \"Build\":\""$3,"\"}, \"Full\":\""$1,"."$2,"."$3,"\"}}"}'
+  uname -r | awk -F. -v OFS= '{print "{\"Version\":{\"Detailed\":{\"Major\":\""$1,"\", \"Minor\":\""$2,"\", \"Build\":\""$3,"\"}, \"Full\":\""$1,"."$2,"."$3,"."$4,"."$5,"\"}}"}'
   exit 0
 }
 
@@ -285,7 +285,7 @@ function CheckDockerVersion() {
   docker_version=$(docker -v 2>/dev/null) || docker_version=""
   #docker_version="Docker version 1.7.0, build 0baf609"
 
-  local regex=".*?(([0-9]+)\.([0-9]+)\.([0-9]+))"
+  local regex=".*?\s+(([0-9]+)\.([0-9]+)\.([0-9]+))"
   if [[ $docker_version =~ $regex ]]
   then
     echo -e "{\"Version\":{\"Detailed\":{\"Major\":\"${BASH_REMATCH[2]}\", \"Minor\":\"${BASH_REMATCH[3]}\", \"Build\":\"${BASH_REMATCH[4]}\"}, \"Full\":\"${BASH_REMATCH[1]}\"}}"
@@ -2642,4 +2642,4 @@ function main() {
 #######################################
 main "$@"
 
-#### DO NOT MODIFY THIS LINE - MD5SIGNATURE - 4c6f6752687974686d2d4f4348656c706572 - md5:acd756fb58cc08e902a990805ca2c3dd:5dm
+#### DO NOT MODIFY THIS LINE - MD5SIGNATURE - 4c6f6752687974686d2d4f4348656c706572 - md5:fb7908718b88254784904f296474a649:5dm
