@@ -6,11 +6,12 @@ heartbeat:
 listeners:
   lumberjack:
     host: 0.0.0.0
-    port: 5044
     disabled: false
     retry_interval: ""
     parsedretryinterval: 0s
     tls: null
+    tcp:
+      port: 5044
   json: []
   grpc: null
   pbvalue_channel: null
