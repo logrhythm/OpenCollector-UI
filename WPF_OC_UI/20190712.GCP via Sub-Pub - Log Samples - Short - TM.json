@@ -1,0 +1,17 @@
+{
+   "@timestamp": "2019-07-11T16:03:17.715Z",
+   "@metadata": {
+      "beat": "pubsubbeat",
+      "type": "doc",
+      "version": "6.2.2"
+   },
+   "message_id": "650455703601110",
+   "publish_time": "2019-07-11T16:05:22.222Z",
+   "beat": {
+      "name": "jzopencollector.localdomain",
+      "hostname": "jzopencollector.localdomain",
+      "version": "6.2.2"
+   },
+   "message": "JZ rocks",
+   "type": "jzopencollector.localdomain"
+}
